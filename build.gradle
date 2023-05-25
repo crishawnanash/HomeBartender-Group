@@ -2,6 +2,7 @@ plugins {
 	id 'java'
 	id 'org.springframework.boot' version '2.7.4'
 	id 'io.spring.dependency-management' version '1.0.14.RELEASE'
+	id 'application'
 }
 
 group = 'org.launchcode'
@@ -17,9 +18,9 @@ java {
 	targetCompatibility = JavaVersion.VERSION_11
 }
 
-springBoot {
+
 	mainClassName = 'org.launchcode.HomeBartender'  // Replace with the fully qualified name of your main class
-}
+
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
