@@ -17,6 +17,10 @@ java {
 	targetCompatibility = JavaVersion.VERSION_11
 }
 
+springBoot {
+	mainClassName = 'org.launchcode.HomeBartender'  // Replace with the fully qualified name of your main class
+}
+
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.security:spring-security-crypto'
