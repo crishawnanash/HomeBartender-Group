@@ -19,7 +19,7 @@ java {
 }
 
 
-	mainClassName = 'org.launchcode.HomeBartender'  // Replace with the fully qualified name of your main class
+	mainClassName = 'org.launchcode.HomeBartender.HomeBartenderApplication'  // Replace with the fully qualified name of your main class
 
 
 dependencies {
