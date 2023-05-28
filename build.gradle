@@ -40,6 +40,15 @@ dependencies {
 
 }
 
+bootJar {
+	archiveClassifier.set('boot')
+}
+
+jar {
+	archiveClassifier.set('')
+}
+
+
 tasks.named('test') {
 	useJUnitPlatform()
 }
