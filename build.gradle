@@ -5,6 +5,8 @@ plugins {
 	id 'application'
 }
 
+mainClassName = 'org.launchcode.HomeBartender.HomeBartenderApplication'
+
 group = 'org.launchcode'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
@@ -35,7 +37,6 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
 }
-mainClassName = 'org.launchcode.HomeBartender.HomeBartenderApplication'  // Replace with the fully qualified name of your main class
 
 tasks.named('test') {
 	useJUnitPlatform()
